@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 // import HelloWorld from '@/components/HelloWorld'
 import LF from '@/components/LF'
-import TurboAdpter from '@/components/TurboAdpter'
+import TurboAdapter from '@/components/TurboAdapter'
 import Test from '@/components/Test'
 
 Vue.use(Router)
@@ -20,9 +20,9 @@ export default new Router({
       component: Test
     },
     {
-      path: '/TurboAdpter',
-      name: 'TurboAdpter',
-      component: TurboAdpter
+      path: '/TurboAdapter',
+      name: 'TurboAdapter',
+      component: TurboAdapter
     }
   ]
 })

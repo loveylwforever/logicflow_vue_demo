@@ -44,7 +44,7 @@
       <DataDialog :graphData="graphData"></DataDialog>
     </el-dialog>
     <h4>更多示例：
-      <el-button type="text" @click="goto">BpmnElement & TurboAdpter</el-button>
+      <el-button type="text" @click="goto">BpmnElement & TurboAdapter</el-button>
     </h4>
   </div>
 </template>
@@ -239,7 +239,7 @@ export default {
       this.$data.dataVisible = true;
     },
     goto () {
-      this.$router.push('/TurboAdpter')
+      this.$router.push('/TurboAdapter')
     }
   }
 }
